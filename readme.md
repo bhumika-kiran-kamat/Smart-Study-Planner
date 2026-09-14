@@ -19,6 +19,11 @@ This web app is designed to simplify your study routine by giving you a clear st
 
 Whether you’re preparing for exams, revising multiple subjects, or just trying to stay organized, this planner is built to make studying feel less overwhelming and more achievable.
 
+## Tech Stack
+- HTML
+- Tailwind CSS
+- Javascript
+
 ## 🖼️Project screenshot
 
 ### Front Page
