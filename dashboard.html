@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Dashboard - Smart Study Planner</title>
+  <link rel="stylesheet" href="./output.css">
+   <script src="script1.js" defer ></script>
+   <link rel="icon" href="./src/fevicon.png">
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <header class="bg-blue-600 text-white px-6 py-4">
+    <h1 class="text-xl md:text-2xl font-bold">📘 Dashboard</h1>
+  </header>
+
+  <main class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+     <section >
+      <h2 class="text-lg font-semibold mb-4 bg-white rounded-lg shadow p-4 " id="notes">Notes</h2>
+    <section class="bg-linear-to-r from-blue-100 to-indigo-200 rounded-lg shadow p-6 mt-6 hidden" id="first">
+  <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-6">📝 Notes</h2>
+
+  <!-- Input -->
+   <div class="flex flex-col gap-4 mb-6">
+  <textarea id="notesInput" placeholder="Write your notes here..." 
+            class="w-full p-3 rounded border h-32"></textarea>
+
+  <button id="saveNoteBtn" 
+          class="  bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition">
+    💾 Save Note
+  </button>
+  </div>
+   
+  <div   class="mt-4  gap-6" id="notesList">
+
+  </div>
+  
+  </div>
+</section>
+</section>
+
+    
+    <!-- Column 2: Test schedule -->
+    <section>
+      <h2 class="text-lg font-semibold mb-4 bg-white rounded-lg shadow p-4 " id="testSchedule">Test schedule</h2>
+      <!-- form content -->
+       <section class="bg-linear-to-r from-blue-100 to-indigo-200 rounded-lg shadow p-6 hidden" id="second">
+  <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-6">📅 Upcoming Tests</h2>
+
+  <!-- Input Form -->
+  <form id="testForm" class="flex flex-col gap-4 mb-6">
+    <input type="date" id="testDate" class="p-2 rounded border outline-none" required>
+    <input type="time" id="testTime" class="p-2 rounded border outline-none">
+    <input type="text" id="testSubject" placeholder="Subject" class="p-2 rounded border outline-none" required>
+    <input type="text" id="testSyllabus" placeholder="Syllabus" class="p-2 rounded border outline-none">
+    <button type="submit" class=" bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition" id="addTestBtn">
+      ➕ Add Test
+    </button>
+  </form>
+
+  <!-- Cards Container -->
+  <div id="testCards" class="mt-4 gap-6">
+    <!-- Example static card -->
+    </section>
+    </section>
+
+    <!-- Column 3: Task List -->
+      <section> 
+      <h2 class="text-lg font-semibold mb-4  bg-white rounded-lg shadow p-4 " id="task">Task List</h2>
+    <section class="bg-linear-to-r from-blue-100 to-indigo-200 rounded-lg shadow p-6 hidden" id="third">
+  <h2 class="text-xl md:text-2xl font-bold text-blue-700 mb-6">📝 Task List</h2>
+
+  <!-- Input Form -->
+  <form id="taskForm" class="flex flex-col gap-4 mb-6">
+    <input type="text" id="taskInput" placeholder="Enter a task" 
+           class="flex-1 p-2 rounded border" required>
+    <button type="submit" 
+            class=" bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition" id="addTaskBtn">
+      ➕ Add Task
+    </button>
+  </form>
+
+  <!-- Task List -->
+  <div id="taskList">
+   
+  </div>
+</section>
+    </section>
+  </main>
+  
+</body>
+</html>
