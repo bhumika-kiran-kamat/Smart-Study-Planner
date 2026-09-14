@@ -23,9 +23,6 @@ Whether you’re preparing for exams, revising multiple subjects, or just trying
 ### Dashboard Page
 ![Second screenshot](./assets/Dashboardpage.png)
 
-## 🎥Project Demo Video
-<video src="./assets/Videoproject.mp4" controls width=100%></video>
-
 
 ## 🛠️ User Instructions
 1. **Open the Website**  
