@@ -24,7 +24,7 @@ Whether you’re preparing for exams, revising multiple subjects, or just trying
 ![Second screenshot](./assets/Dashboardpage.png)
 
 ## 🎥Project Demo Video
-<video src="./assets/Videoproject.mp4" control width=100%></video>
+<video src="./assets/Videoproject.mp4" controls width=100%></video>
 
 
 ## 🛠️ User Instructions
