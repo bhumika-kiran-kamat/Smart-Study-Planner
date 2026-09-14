@@ -4,6 +4,11 @@
 A simple web app that helps students organize their study schedule and stay consistent.
 
 
+# 🌐 Live Website
+Check out the live version here:  
+👉 [Visit Website]( https://bhumika-kiran-kamat.github.io/Smart-Study-Planner/)
+
+
 ## ✨ Introduction
 Studying effectively isn’t just about hard work — it’s about smart planning. Many students struggle with managing time, balancing subjects, and staying consistent. That’s where **Smart Study Planner** comes in.  
 
